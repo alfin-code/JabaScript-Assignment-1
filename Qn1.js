@@ -1,25 +1,22 @@
-// program to find the largest among three numbers
+var n1,n2,n3
 
-// take input from the user
-var num1,num2,num3;
+n1=prompt("Enter the first number")
+n2=prompt("Enter the first number")
+n3=prompt("Enter the first number")
 
- num1 = prompt("Enter first number: ");
- num2 = prompt("Enter second number: ");
- num3 = prompt("Enter third number: ");
-
-// check the condition
-if(num1 >= num2 && num1 >= num3)
- {
-    document.write("The largest number is:" +n
-    um1)
-}
-else if (num2 >= num1 && num2 >= num3) 
+if(n1>=n2 && n1>=n3)
 {
-    document.write( "The largest number is:" +num2)
- 
+    document.write(n1+  "is the largest number")
+
 }
-else {
-    document.write("The largest number is:" +num3)
+
+else if(n2>=n1 && n2>=n3)  
+{
+ document.write(n2+ "is the largest number")
+}
+
+else{
+    document.write(n3+  "is the largest number")
 
 }
 
